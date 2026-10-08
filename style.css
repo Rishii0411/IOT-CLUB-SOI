@@ -24,6 +24,7 @@
     --transition: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
+
 /* Reset */
 * {
     margin: 0;
@@ -56,6 +57,16 @@ a {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 2rem;
+}
+.container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+.container2 {
+    max-width: 1200px;
+    margin: 0 auto 10rem auto;
     padding: 0 2rem;
 }
 
@@ -144,6 +155,13 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.top-logo {
+    height: 50px;
+    width: auto;
+    display: block;
+    object-fit: contain;
 }
 
 .logo-stack {
