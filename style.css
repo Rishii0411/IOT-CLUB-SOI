@@ -822,3 +822,13 @@ a {
         margin-top: 5px;
     }
 }
+
+@media (max-width: 768px) {
+    .hero-image-container {
+        overflow: hidden;
+    }
+
+    .hero-banner {
+        transform: scale(1.18);
+    }
+}
